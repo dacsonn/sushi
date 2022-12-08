@@ -1,0 +1,387 @@
+
+
+
+/* HOME */
+.home{
+    position: relative;
+}
+
+.home__container{
+    row-gap: 3rem;
+    padding-top:2rem;
+}
+
+.home__img{
+    width: 300px;
+    justify-self: center;
+}
+
+.home__data{
+    text-align: center;
+}
+
+.home__title{
+    font-size: var(--biggest-font-size);
+    font-family: var(--title-font);
+    margin-bottom: 1rem;
+}
+
+.home__title img{
+    width: 40px;
+}
+
+.home__title div{
+    min-width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: .5rem;
+}
+
+
+.home__description{
+    padding: 0 1rem;
+    margin-bottom: 2.5rem;
+}
+
+.home__leaf-1,
+.home__leaf-2{
+    position: absolute;
+    opacity: .2;
+}
+
+.home__leaf-1{
+    width: 80px;
+    top: 8rem;
+    left: -1rem;
+    transform: rotate(90deg);
+}
+
+.home__leaf-2{
+    width: 100px;
+    right: -2rem;
+    bottom: 1rem;
+    transform: rotate(-15deg);
+}
+
+/* BUTTON */
+.button{
+    display: inline-flex;
+    align-items: center;
+    column-gap: .5rem;
+    background-color: var(--first-color);
+    padding: 1rem 1.5rem;
+    border-radius: 4rem;
+    color: #fff;
+    font-weight: var(--font-medium);
+    transition: backgroud .3s;
+}
+
+.button i{
+    font-size: 1.5rem;
+    transition: tranform .3s;
+}
+
+.button:hover{
+    background-color: var(--first-color-alt);
+}
+
+.button:hover i{
+    transform: translateX(0.25rem);
+}
+
+
+.btn__seencart{
+    display: flex;
+    float: right;
+    margin-top: 1rem;
+    border-radius: 0rem;
+    padding: 0.5rem 1rem;
+}
+
+
+.btn{
+    display: flex;
+}
+
+/* ABOUT */
+
+.about{
+    position: relative;
+}
+
+.about__container{
+    row-gap:  3rem;
+}
+
+.about__data{
+    text-align: center;
+}
+
+.about__title img{
+    width: 30px;
+}
+
+.about__title div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: .5rem;
+}
+
+.about__img{
+    width: 300px;
+    justify-self: center;
+}
+
+.about__leaf{
+    width: 100px;
+    opacity: .2;
+    position: absolute;
+    right: -1.5rem;
+    bottom: 11rem;
+    transform: rotate(-15deg);
+}
+
+
+/* POPULAR */
+.popular__container{
+    padding-top: 4rem;
+    grid-template-columns: 250px;
+    justify-content: center;
+    row-gap: 5.5rem;
+}
+
+.popular__card{
+    position: relative;
+    background-color: var(--container-color);
+    padding: 7rem 2rem 1.5rem;
+    box-shadow: 0 8px 20px hsla(19, 64%, 48%, .08);
+    border-radius: 1rem;
+    text-align: center;
+    transition: background .8s;
+    cursor: pointer;
+}
+
+.popular__img{
+    width: 220px;
+    position: absolute;
+    inset: 0;
+    top: -3.5rem;
+    margin: 0 auto;
+    transition: tranform .4s;
+}
+
+.popular__name{
+    font-size: var(--h3-font-size);
+    font-family: var(--title-font);
+    margin-bottom: .25rem;
+}
+
+.popular__description{
+    display: block;
+    font-size: var(--smaller-font-size);
+    margin-bottom: 1rem;
+    color: var(--text-color);
+}
+
+
+
+.popular__price{
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-medium);
+    color: var(--first-color);
+}
+
+.popular__price-old{
+    text-decoration: line-through;
+    opacity: .5;
+    margin-right: .4rem;
+}
+
+.popular__button{
+    display: flex;
+    background-color: var(--first-color);
+    padding: 6px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 1.25rem;
+    box-shadow: 0 4px 20px hsla(19, 64%, 20%, .2);
+    position: absolute;
+    bottom: 1.25rem;
+    right: 1.25rem;
+    cursor: pointer;
+    transition: backgroud .3s;
+}
+
+
+
+.popular__button:hover{
+  
+    background-color: var(--first-color-alt);
+}
+
+
+
+.popular__card:hover .popular__img{
+    transform: translateY(-0.25rem);
+}
+
+.popular__card:hover{
+    box-shadow: 0 4px 20px hsla(19, 64%, 20%, .3); 
+}
+
+
+
+
+/* service */
+.service__container{
+    grid-template-columns: 250px;
+    justify-content: center;
+    row-gap: 5.5rem;
+}
+
+.service__cart{
+    display: flex;
+}
+
+.service__cart i{
+    font-size: 2rem;
+    margin-right: 1rem;
+}
+
+.cart__text h3{
+    font-size: var(--h2-font-size);
+    font-weight: 800;
+    margin-bottom: 1rem;
+    font-family: var(--title-font);
+}
+
+
+.service__container:last-child
+.cart__text span{
+    font-size: 1rem;
+}   
+
+/* RECENTLY */
+.recently{
+    position: relative;
+}
+
+.recently__container{
+    row-gap: 4rem;
+}
+
+.recently__data{
+    position: relative;
+    text-align: center;
+}
+
+.recently__description{
+    margin-bottom: 2rem;
+}
+
+.recently__data-img{
+    width: 25px;
+    position: absolute;
+    top: 1.5rem;
+    right: 5.5rem;
+    transform: rotate(30deg);
+}
+
+.recently__img{
+    width: 300px;
+    justify-self: center;
+}
+
+.recently__leaf-1,
+.recently__leaf-2{
+    position: absolute;
+    opacity: .2;
+}
+
+.recently__leaf-1{
+    width: 80px;
+    top: 17rem;
+    left: -1rem;
+    transform: rotate(15deg);
+}
+
+.recently__leaf-2{
+    width: 40px;
+    right: -1rem;
+    bottom: 12rem;
+    transform: rotate(-30deg);
+}
+
+
+
+
+/* Newsletter */
+
+.newsletter__container{
+    position: relative;
+}
+
+.newsletter__content{
+    position: relative;
+    background-color: hsla(19, 24%, 15%);
+    border-radius: 2.5rem;
+    padding: 5rem 1rem 3rem;
+    text-align: center;
+    overflow: hidden;
+    margin-bottom: 2rem;
+}
+
+
+.newsletter__img{
+    width: 12rem;
+    position: absolute;
+    top: -3rem;
+    left: -4rem;
+}
+
+.newsletter__data .section__title{
+    color: #fff;
+    margin-bottom: 2rem;
+}
+
+.newsletter__form{
+    background-color: #fff;
+    padding: 5px 5px 5px 16px;
+    border-radius: 4rem;
+    display: flex;
+    column-gap: 0.5rem;
+}
+
+.newsletter__input,
+.newsletter__button{
+    font-family: var(--body-font);
+    border: none;
+    outline: none;
+}
+
+.newsletter__input{
+    width: 90%;
+    color: var(--text-color);
+}
+
+.newsletter__button{
+    cursor: pointer;
+}
+
+.newsletter__spinach{
+    width: 30px;
+    position: absolute;
+    right: 2rem;
+    bottom: -2rem;
+    transform: rotate(45deg);
+}
+
+.newsletter__container,
+.newsletter__form,
+.newsletter__input {
+    transition: background .8s  ;
+}

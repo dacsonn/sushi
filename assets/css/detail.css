@@ -1,0 +1,186 @@
+
+.active-link {
+    color:var(--title-color) !important ;
+}
+
+
+
+
+
+
+/* HOME */
+.home{
+    position: relative;
+}
+
+.home__container{
+    row-gap: 3rem;
+    padding-top:2rem;
+}
+
+.home__img{
+    width: 350px;
+    justify-self: center;
+}
+
+.home__data{
+    text-align: center;
+}
+
+.home__title{
+    font-size: var(--biggest-font-size);
+    font-family: var(--title-font);
+    margin-bottom: 1rem;
+}
+
+.home__category{
+    display: flex;
+   align-items: center;
+   margin-bottom: 1rem;
+}
+
+.home__category img{
+    margin-right: 1rem;
+    width: 40px;
+}
+
+.home__feedback{
+    display: flex;
+    justify-content: space-between;
+    max-width: 300px;
+    margin-bottom: 1rem;
+}
+
+
+.feedback__stars i{
+    color: #ccc;
+}
+
+.feedback__stars i:first-child,
+.feedback__stars i:nth-child(2),
+.feedback__stars i:nth-child(3),
+.feedback__stars i:nth-child(4){
+    color: rgb(245, 245, 75);
+}
+
+
+
+
+.home__price{
+    display: flex;
+    margin-top: 2rem;
+}
+
+
+.home__price-new,
+.home__price-old{
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+
+.home__price-old{
+    text-decoration: line-through;
+    opacity: .5;
+    color: var(--first-color);
+
+}
+
+.home__price-new{
+    color: var(--first-color);
+}
+
+/* .home__data p{
+    max-width: 25rem;
+    margin-bottom: 1rem;
+} */
+
+
+
+.home__description{
+    padding: 0 1rem;
+    margin-bottom: 2.5rem;
+}
+
+.home__leaf-1,
+.home__leaf-2{
+    position: absolute;
+    opacity: .2;
+}
+
+.home__leaf-1{
+    width: 80px;
+    top: 8rem;
+    left: -1rem;
+    transform: rotate(90deg);
+}
+
+.home__leaf-2{
+    width: 100px;
+    right: -2rem;
+    bottom: 1rem;
+    transform: rotate(-15deg);
+}
+
+.home__qty span{
+    font-size: 1rem;
+    margin-right: 1rem;
+}
+
+.home__quantity{
+    width: 15%;
+    height: 20px;
+    padding: 1rem 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+input{
+    border: solid 1px #ccc;
+}
+
+
+
+/* BUTTON */
+.button{
+    display: inline-flex;
+    align-items: center;
+    column-gap: .5rem;
+    background-color: var(--first-color);
+    padding: 1rem 1.5rem;
+    color: #fff;
+    font-weight: var(--font-medium);
+    transition: backgroud .3s;
+    border-radius: 4rem;
+}
+
+.button i{
+    font-size: 1.5rem;
+    transition: tranform .3s;
+}
+
+.button:hover{
+    background-color: var(--first-color-alt);
+}
+
+.button:hover i{
+    transform: translateX(0.25rem);
+}
+
+
+.home__btn a:first-child{
+    margin-right: 1rem
+}
+
+
+.btn__seencart{
+    display: flex;
+    float: right;
+    margin-top: 1rem;
+    border-radius: 0rem;
+    padding: 0.5rem 1rem;
+}
+
+
+
+

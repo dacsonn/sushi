@@ -1,0 +1,260 @@
+.active-link {
+    color:var(    --title-color) !important ;
+}
+
+.nav_menu .nav__list li:last-child a{
+    color: var(--first-color-alt) !important;
+}
+
+/* HOME */
+.home{
+    position: relative;
+}
+
+.home__container{
+    row-gap: 3rem;
+    padding-top:2rem;
+    padding-block: 0rem !important;
+}
+
+.product{
+    /* background-color:hsl(18, 74%, 90%); */
+
+}
+
+
+.home__leaf-1,
+.home__leaf-2{
+    position: absolute;
+    opacity: .2;
+}
+
+.home__leaf-1{
+    width: 80px;
+    top: 8rem;
+    left: -1rem;
+    transform: rotate(90deg);
+}
+
+.home__leaf-2{
+    width: 100px;
+    right: -2rem;
+    bottom: 1rem;
+    transform: rotate(-15deg);
+}
+
+.home__header{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    /* background-color:hsl(18, 74%, 90%); */
+    padding: 3rem 3rem 0rem 3rem;
+}
+
+.home__conten img{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    height: 600px;
+    margin-top: 5rem;
+}
+
+.home__conten h1{
+    font-weight: var( --font-semi-bold);
+    text-align: center;
+    margin: 5rem 0rem 3rem 0rem;
+}
+
+.home__conten p{
+    font-size: 1.2rem;
+    width: 80%;
+    display: flex;
+    margin-left: 10%;
+    text-align: center;
+}
+
+
+
+/* PROC */
+
+.product__list{
+    /* background-color:var(--body-color); */
+    padding: 5rem 0rem 1rem 0rem !important;
+}
+
+.conten__left h1{
+    font-weight: 600;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+}
+
+.conten__left p{
+ font-size: 1rem;
+ margin: 1rem 0rem;
+}
+
+.order_btn{
+    background: none !important;
+    color: var(--text-color) !important;
+     padding: 0px !important; 
+}
+
+.order_btn:hover{
+    zoom: 120%;
+}
+
+
+
+.top__item{
+    display: flex;
+    justify-content: space-between;
+ 
+}
+
+.conten__left,
+.conten__right{
+    flex: 1;
+    padding: 0rem 2rem;
+}
+
+.skillbar__group{
+    margin-bottom: 2rem;
+}
+
+
+
+.conten__right{
+    position: relative;
+}
+
+.skillbar__text{
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.skillbar__text p{
+    text-transform: uppercase   ;
+}
+
+.skillbar__text span{
+    position: absolute;
+    top: 0;
+    left: calc(86% - 3%);
+}
+
+.skill-bar{
+    width: 100%;
+    height: 10px;
+    background-color: #ccc;
+    margin-top: 0.5rem;
+    border-radius: 1rem;
+}
+
+.skill-track{
+    width: 86%;
+    height: 100%;
+    background-color: var(--first-color-alt);
+    border-radius: 1rem;
+}
+
+.conten__right .skillbar__group:first-child .skillbar__text span{
+    position: absolute;
+    top: 0rem;
+    left: calc(86% - 7%);
+}
+
+
+
+.conten__right .skillbar__group:nth-child(2) .skillbar__text span{
+    position: absolute;
+    top: 4.3rem;
+    left: calc(70% - 5%);
+}
+
+.conten__right .skillbar__group:nth-child(2) .skill-track{
+    width: 70%; 
+} 
+
+
+.conten__right .skillbar__group:last-child .skillbar__text span{
+    position: absolute;
+    top: 8.5rem;
+    left: calc(90% - 7%);
+}
+
+.conten__right .skillbar__group:last-child .skill-track{
+    width: 90%; 
+} 
+
+
+
+/* service */
+.service__container{
+    grid-template-columns: 250px;
+    justify-content: center;
+    row-gap: 5.5rem;
+    /* background-color:hsl(18, 74%, 90%); */
+}
+
+.service__cart{
+    display: flex;
+}
+
+.service__cart i{
+    font-size: 2rem;
+    margin-right: 1rem;
+}
+
+.cart__text h3{
+    font-size: var(--h2-font-size);
+    font-weight: 800;
+    margin-bottom: 1rem;
+    font-family: var(--title-font);
+}
+
+.cart__text span{
+    font-size: 1rem;
+}   
+
+
+
+
+
+
+/* BUTTON */
+.button{
+    display: inline-flex;
+    align-items: center;
+    column-gap: .5rem;
+    background-color: var(--first-color);
+    padding: 1rem 1.5rem;
+    color: #fff;
+    font-weight: var(--font-medium);
+    transition: backgroud .3s;
+}
+
+
+.button i{
+    font-size: 1.5rem;
+    transition: tranform .3s;
+}
+
+.button:hover{
+    background-color: var(--first-color-alt);
+}
+
+.button:hover i{
+    transform: translateX(0.25rem);
+}
+
+
+
+.btn__seencart{
+    display: flex;
+    float: right;
+    margin-top: 1rem;
+    border-radius: 0rem;
+    padding: 0.5rem 1rem;
+}
+
+
